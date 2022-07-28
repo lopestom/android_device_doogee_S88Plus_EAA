@@ -156,7 +156,6 @@ jobs:
       if: |
         github.event.inputs.MANIFEST_BRANCH != 'twrp-11'
         && github.event.inputs.MANIFEST_BRANCH != 'twrp-12.1'
-        && github.event.inputs.MANIFEST_BRANCH != 'twrp-10.0-deprecated'
       run: |
         bash ${GITHUB_WORKSPACE}/scripts/convert.sh ${{ github.event.inputs.DEVICE_PATH }}/omni.dependencies
         repo sync -j$(nproc --all)
