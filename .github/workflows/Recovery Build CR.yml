@@ -6,7 +6,7 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if not using SSH keys, use https:// URL)'
         required: true
-        default: 'git@github.com:minimal-manifest-twrp/platform_manifest_twrp_omni.git'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_S88Plus_EEA'
+        default: 'omni_S88Plus_EEA'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
