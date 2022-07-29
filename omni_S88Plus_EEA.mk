@@ -14,7 +14,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 #$(call inherit-product, vendor/twrp/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := S88Plus
+PRODUCT_DEVICE := S88Plus_EEA
 PRODUCT_NAME := omni_S88Plus_EEA
 PRODUCT_BRAND := DOOGEE
 PRODUCT_MODEL := S88Plus
